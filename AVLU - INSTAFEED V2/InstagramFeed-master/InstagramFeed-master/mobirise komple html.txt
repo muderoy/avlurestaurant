@@ -1,0 +1,45 @@
+<section mbr-id="_anchor" class="mbr-section article content1">
+
+    <mbr-parameters>
+    <!-- Block parameters controls (Blue "Gear" panel) -->
+        <input type="range" inline="" title="Top" name="paddingTop" min="0" max="8" step="1" value="4">
+        <input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="8" step="1" value="4">
+        <input type="color" title="Background Color" name="bgColor" value="#ffffff">
+    <!-- End block parameters -->
+    </mbr-parameters> 
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-12">
+                
+        <div class="container pt-3">
+            <div class="tab-content" id="tabContentExamples">
+
+                    <div id="instagram-feed1" class="instagram_feed"></div>
+                
+
+        </div>
+    <script src="https://www.davetiyeyapici.com/embed/instagramfeed/InstagramFeed.min.js"></script>
+    <script>
+        (function() {
+            new InstagramFeed({
+                'username': 'avluavlu',
+                'container': document.getElementById("instagram-feed1"),
+                'display_profile': false,
+                'display_biography': false,
+                'display_gallery': true,
+                'callback': null,
+                'styling': true,
+                'items': 8,
+                'items_per_row': 4,
+                'margin': 1
+            });
+
+            
+        })();
+        
+    </script>
+            </div>
+        </div>
+    </div>
+</div></section>
